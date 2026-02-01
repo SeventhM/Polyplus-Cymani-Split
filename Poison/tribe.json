@@ -1,0 +1,112 @@
+{
+  "tribeData": {
+    "poisontribe": {
+      "startingStars": 5,
+      "unitOverrides": {
+        "giant": "poisonsuper",
+        "archer": "spitter",
+        "swordsman": "mantis2",
+        "catapult": "exida2",
+        "defender": "kiton2",
+        "cloak": "moth2",
+        "dagger": "larve2",
+        "pirate":"larve2",
+        "rammership": "raychi",
+        "scoutship":"phychi2",
+        "bombership":"island"
+      },
+      "techOverrides": {
+        "embarquatism": "aquatism",
+        "embarksailing": "cymsailing2",
+        "construction": "recycling2"
+      },
+      "startingTech": [
+        "basic",
+        "farming",
+        "cymbase"
+      ],
+      "startingResource": [
+        "spores",
+        "spores"
+      ],
+      "improvementOverrides": {
+        "customshouse": "clathrus",
+        "farm": "fungi",
+        "port":"algae",
+        "bridge":"none"
+      },
+      "category": 2,
+      "startingUnit": "warrior",
+      "terrainModifier": {
+        "forest": 1.2
+      },
+      "resourceModifier": {
+        "spores": 0.3,
+        "crop": 0.8
+      }
+    }
+  },
+  "techData": {
+    "recycling2": {
+      "cost": 3,
+      "abilityUnlocks": [
+        "destroy"
+      ],
+      "improvementUnlocks": [
+        "mycogrove",
+        "fertilize"
+      ]
+    },
+    
+    "cymsailing2": {
+        "unitUnlocks": [
+            "phychi2"
+        ],
+        "techUnlocks": [
+            "navigation"
+        ],
+        "movementUnlocks": {
+            "water": 1
+        },
+        "cost": 2
+     }
+  },
+  "improvementData": {
+    "clathrus": {
+      "maxLevel": 8,
+      "cost": 5,
+      "work": 1,
+      "adjacencyRequirements": [
+        {
+          "effect": "algae"
+        }
+      ],
+      "adjacencyImprovements": [
+        {
+          "effect": "algae"
+        }
+      ],
+      "improvementAbilities": [
+        "poison",
+        "limited"
+      ],
+      "terrainRequirements": [
+        {
+          "terrain": "field"
+        },
+        {
+          "terrain": "wetland"
+        },
+        {
+          "terrain": "water"
+        },
+        {
+          "terrain": "ocean"
+        },
+        {
+          "terrain": "ice"
+        }
+      ]
+    }
+  }
+}

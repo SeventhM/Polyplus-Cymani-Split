@@ -1,0 +1,140 @@
+{
+    
+  "unitData": {
+    "spitter": { // Poison archer
+      "cost": 3,
+      "health": 100,
+      "defence": 10,
+      "movement": 1,
+      "weapon": 12,
+      "range": 2,
+      "attack": 17,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "land",
+        "dash",
+        "poison"
+      ]
+    },
+    "phychi2": {
+      "cost": 3,
+      "health": 50,
+      "defence": 10,
+      "movement": 2,
+      "weapon": 12,
+      "range": 2,
+      "attack": 7, // Base Polytopia stats instead of Polyplus. To differ from archer
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "fly",
+        "surprise",
+        "dash",
+        "doubleattack",
+        "poison"
+      ]
+    },
+    "kiton2": {
+      "cost": 3,
+      "health": 150,
+      "defence": 30,
+      "movement": 1,
+      "weapon": 7,
+      "range": 1,
+      "attack": 10,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "poison",
+        "land",
+        "fortify"
+      ]
+    },
+    "exida2": { // Only difference is no creep ability
+      "cost": 8,
+      "health": 100,
+      "defence": 10,
+      "movement": 2,
+      "weapon": 11,
+      "range": 3,
+      "attack": 30,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "poison",
+        "splash",
+        "land"
+      ]
+    },
+    "poisonsuper": {
+      "hidden": true,
+      "cost": 10,
+      "health": 400,
+      //"defence": Not sure,
+      "movement": 1,
+      //"weapon": 7,
+      "range": 1, // Not sure
+      //"attack": Not sure,
+      "promotionLimit": 0,
+      "unitAbilities": [
+        "staticplus",
+        "poison",
+        // Other abilities, Not sure
+        "land"
+      ]
+    },
+    "mantis2": { // Only difference is no creep ability
+      "health": 150,
+      "defence": 30,
+      "movement": 1,
+      "range": 1,
+      "attack": 30,
+      "cost": 5,
+      "unitAbilities": [
+        "dash",
+        "land"
+      ],
+      "weapon": 7,
+      "promotionLimit": 3
+    },
+    "moth2": {
+      "health": 50,
+      "movement": 2,
+      "defence": 1,
+      "range": 1,
+      "attack": 20,
+      "cost": 5,
+      "unitAbilities": [
+        "dash",
+        "sneak",
+        "hide",
+        "revolt",
+        "poison",
+        "staticplus",
+        "stiff",
+        "fly",
+        "kamikadze",
+        "surprise"
+      ],
+      "weapon": 12,
+      "promotionLimit": 0
+    },
+    "larva2": {
+      "health": 100,
+      "defence": 20,
+      "movement": 1,
+      "range": 1,
+      "attack": 17,
+      "cost": 2,
+      "hidden": true,
+      "unitAbilities": [
+        "dash",
+        "surprise",
+        "independent",
+        "staticplus",
+        "land",
+        "poison"
+        // "water"
+      ],
+      "weapon": 16,
+      "promotionLimit": 0
+    }
+  }
+}
