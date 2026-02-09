@@ -48,14 +48,14 @@
         "fortify"
       ]
     },
-    "exida2": { // Only difference is no creep ability
+    "exida2": { // Only difference is no creep ability and attack stat
       "cost": 8,
       "health": 100,
       "defence": 10,
       "movement": 2,
       "weapon": 11,
       "range": 3,
-      "attack": 30,
+      "attack": 35,
       "promotionLimit": 3,
       "unitAbilities": [
         "poison",
@@ -131,7 +131,7 @@
         "staticplus",
         "land",
         "poison"
-        // "water"
+        // A way to move on water
       ],
       "weapon": 16,
       "promotionLimit": 0

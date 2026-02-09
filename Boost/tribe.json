@@ -1,0 +1,109 @@
+{
+  "tribeData": {
+    "cymanti": {
+      "startingStars": 5,
+      "unitOverrides": {
+        "rider": "hexapod",
+        "giant": "centipede2",
+        "knight": "doomux2",
+        "archer": "fastarcher",
+        "rammership": "rammerex",
+        "defender": "fastdefend"
+      },
+      "startingTech": [
+        "basic",
+        "freespirit"
+      ],
+      "startingResource": [
+        // Idk
+      ],
+      "improvementOverrides": {
+        "road":"mycelium",
+        "guild": "camp"
+      },
+      "category": 2,
+      "bonus": 0,
+      "startingUnit": "warrior",
+      "terrainModifier": {
+        // Idk
+      },
+      "resourceModifier": {
+        // Idk
+      }
+    }
+  },
+  "improvementData": {
+    "mycelium": {
+      "cost": 5,
+      "range": 3,
+      "routes": [
+        "field",
+        "forest",
+        "wetland",
+        "ice"
+      ],
+      "terrainRequirements": [
+        {
+          "terrain": "field"
+        },
+        {
+          "terrain": "forest"
+        },
+        {
+          "terrain": "wetland"
+        }
+      ],
+      "improvementAbilities": [
+        "network",
+        "healplus"
+      ]
+    },
+    "camp": {
+      "cost": 7,
+      "rewards": [
+        {
+          "population": 2
+        }
+      ],
+      "terrainRequirements": [
+        {
+          "terrain": "field"
+        },
+        {
+          "terrain": "forest"
+        },
+        {
+          "terrain": "mountain"
+        }
+      ],
+      "improvementAbilities": [
+        "training",
+        "limited"
+      ]
+    },
+    "guild": {
+      "cost": 5,
+      "rewards": [
+        {
+          "population": 2
+        }
+      ],
+      "terrainRequirements": [
+        {
+          "terrain": "field"
+        },
+        {
+          "terrain": "forest"
+        },
+        {
+          "terrain": "mountain"
+        }
+      ],
+      "improvementAbilities": [
+        "limited"
+      ],
+      "maxLevel": 0,
+      "idx": -1
+    }
+  }
+}

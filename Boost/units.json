@@ -1,0 +1,146 @@
+{
+    
+  "unitData": {
+    "hexapod": {
+      "health": 50,
+      "defence": 10,
+      "movement": 2,
+      "range": 1,
+      "attack": 30,
+      "cost": 3,
+      "unitAbilities": [
+        "dash",
+        "escape",
+        "creep",
+        "land",
+        "fortify"
+      ],
+      "weapon": 7,
+      "promotionLimit": 3
+    },
+    "fastarcher": {
+      "health": 50,
+      "defence": 10,
+      "movement": 2,
+      "range": 1,
+      "attack": 20,
+      "cost": 3,
+      "unitAbilities": [
+        "dash",
+        "escape",
+        "surprise",
+        "creep",
+        "land",
+        "fortify"
+      ],
+      "weapon": 7,
+      "promotionLimit": 3
+    },
+    "doomux2": {
+      "cost": 10,
+      "health": 200,
+      "defence": 20,
+      "movement": 3,
+      "weapon": 7,
+      "range": 1,
+      "attack": 35,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "dash",
+        "creep",
+        "explode2",
+        "sneak",
+        "land",
+        "fortify"
+      ]
+    },
+    "fastdefend": {
+      "cost": 3,
+      "health": 100,
+      "defence": 45,
+      "movement": 1,
+      "weapon": 2,
+      "range": 1,
+      "attack": 10,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "dash",
+        "land",
+        "fortify"
+      ]
+    },
+    "centipede": {
+      "hidden": true,
+      "cost": 10,
+      "health": 200,
+      "defence": 30,
+      "movement": 2,
+      "weapon": 7,
+      "range": 1,
+      "attack": 40,
+      "promotionLimit": 0,
+      "unitAbilities": [
+        "dash",
+        "eat", // Or some other benefit from kills
+        "explode2",
+        "creep",
+        "staticplus",
+        "land"
+      ]
+    },
+    /*"segment": {
+      "hidden": true,
+      "cost": 2,
+      "health": 100,
+      "defence": 20,
+      "movement": 1,
+      "weapon": 7,
+      "range": 1,
+      "attack": 20,
+      "promotionLimit": 0,
+      "unitAbilities": [
+        "independent",
+        "creep",
+        "dash",
+        "explode2",
+        "staticplus",
+        "stiff",
+        "land"
+      ]
+    },*/
+    "shaman": {
+      "cost": 5,
+      "health": 100,
+      "defence": 10,
+      "movement": 1,
+      "weapon": 7,
+      "range": 1,
+      "attack": 30,
+      "promotionLimit": 3,
+      "unitAbilities": [
+        "boost",
+        "land"
+      ]
+    },
+    "rammerex": {
+      "cost": 5,
+      "movement": 3,
+      "health": 100,
+      "defence": 20,
+      "attack": 30,
+      "range": 1,
+      "promotionLimit": 0,
+      "hidden": true,
+      "weapon": 16,
+      "upgradesFrom": "transportship",
+      "unitAbilities": [
+        "dash",
+        "swim",
+        "water",
+        "carry",
+        "explode2",
+        "staticplus"
+      ]
+    }
+  },
+}
